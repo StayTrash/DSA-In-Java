@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/7-Binary-Search.iml" filepath="$PROJECT_DIR$/.idea/7-Binary-Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary-Search-Algo/Binary-Search-Algo.iml" filepath="$PROJECT_DIR$/Binary-Search-Algo/Binary-Search-Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary-Search-Questions/Binary-Search-Questions.iml" filepath="$PROJECT_DIR$/Binary-Search-Questions/Binary-Search-Questions.iml" />
+    </modules>
+  </component>
+</project>
