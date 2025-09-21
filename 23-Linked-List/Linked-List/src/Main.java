@@ -34,13 +34,13 @@ public class Main {
 //        list.insert(99, 65);
 //        list.display();
 
-//        CLL list = new CLL();
-//
-//        list.insert(23);
-//        list.insert(3);
-//        list.insert(19);
-//        list.insert(75);
-//        list.display();
+        CLL list = new CLL();
+
+        list.insert(23);
+        list.insert(3);
+        list.insert(19);
+        list.insert(75);
+        list.display();
 //        list.delete(19);
 //        list.display();
 
@@ -58,21 +58,53 @@ public class Main {
 //        dupList.duplicate();
 //        dupList.display();
 
-//        Q2:
-        LL first = new LL();
-        first.insertLast(1);
-        first.insertLast(3);
-        first.insertLast(5);
+////        Q2:
+//        LL first = new LL();
+//        first.insertLast(1);
+//        first.insertLast(3);
+//        first.insertLast(5);
+//
+//        LL second = new LL();
+//        second.insertLast(1);
+//        second.insertLast(2);
+//        second.insertLast(9);
+//        second.insertLast(14);
+//
+//        LL ans = LL.merge(first, second);
+//        ans.display();
 
-        LL second = new LL();
-        second.insertLast(1);
-        second.insertLast(2);
-        second.insertLast(9);
-        second.insertLast(14);
 
-        LL ans = LL.merge(first, second);
-        ans.display();
+//        llpract list = new llpract();
+//        list.insertFirst(1);
+//        list.insertFirst(2);
+//        list.insertFirst(3);
+//        list.insertFirst(4);
+//
+//        list.display();
 
-
+//        list.insertLast(1);
+//        list.insertLast(2);
+//        list.insertLast(3);
+//        list.insertLast(4);
+//        list.insertLast(5);
+//        list.insertLast(6);
+//        list.insertLast(7);
+//        list.insertLast(8);
+//        list.display();
+//
+//        list.deleteFirst();
+//        list.display();
+//
+//        list.deleteLast();
+//        list.display();
+//
+//        list.delete(3);
+//        list.display();
+//
+//        System.out.println(list.find(5));
+//        System.out.println(list.find(6));
+//
+//        list.insertRec(5, 3);
+//        list.display();
     }
 }

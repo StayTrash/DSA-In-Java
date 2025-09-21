@@ -1,17 +1,18 @@
-public class CLL {
+public class cllpract {
     private class Node {
-        int val;
+        int value;
         Node next;
 
-        public Node(int val) {
-            this.val = val;
+        public Node(int value) {
+            this.value = value;
         }
+
     }
 
-    private Node head;
-    private Node tail;
+    Node head;
+    Node tail;
 
-    public CLL() {
+    public cllpract() {
         this.head = null;
         this.tail = null;
     }
@@ -33,21 +34,10 @@ public class CLL {
     public void display() {
         Node node = head;
 
-        if (head != null) {
-            do {
-                System.out.print(node.val + " -> ");
-                node = node.next;
-            } while (node != head);
-        }
-        System.out.println("HEAD");
-
-//        while (node != tail) {
-//            System.out.print(node.val + " -> ");
-//            node = node.next;
-//        }
-//
-//        System.out.print(node.val + " -> HEAD ");
-
+        do {
+            System.out.println(node.value + " -> ");
+            node = node.next;
+        } while (node != null);
     }
 
     public void delete(int val) {
@@ -56,19 +46,21 @@ public class CLL {
         if (node == null) {
             return;
         }
-        if (node.val == val) {
+
+        if (node.value == val) {
             head = head.next;
-            tail.next = node;
+            tail = node;
             return;
         }
 
         do {
             Node n = node.next;
-            if (n.val == val) {
+            if (n.value == val) {
                 node.next = n.next;
                 break;
             }
             node = node.next;
         } while (node != head);
+
     }
 }
