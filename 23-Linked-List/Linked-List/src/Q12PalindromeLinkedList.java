@@ -70,6 +70,7 @@
 //        ListNode next = null;
 //        ListNode dummy = head;
 //        // if(head.next == null)return true;
+//
 //        while(fast!=null && fast.next != null){
 //            slow=slow.next;
 //            fast=fast.next.next;
