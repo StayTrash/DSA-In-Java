@@ -5,6 +5,7 @@ import java.util.Stack;
 class Q4MinAddToMakeValidParenthesis {
     public int minAddToMakeValid(String s) {
         Stack<Character> stack = new Stack<>();
+
         for (char ch : s.toCharArray()) {
             if (ch == ')') {
                 if (!stack.isEmpty() && stack.peek() == '(') {
