@@ -4,7 +4,8 @@ public class dfs {
 //    Uses:
 //      In a BST -> when you want the lowest/lower value
 //      In-order: leftmost first
-//      Post Order: when you have to perform something on root node on last - > "when you want to delete a tree"
+//      Post Order: when you have to perform something on root node on last
+//                 - > "when you want to delete a tree" -> use Post Order
 //
 //
 //      Definition for a binary tree node
