@@ -44,16 +44,16 @@ public class dfs {
     }
 
 //    DFS using stack
-    void dfsStack(Node node) {
+    void dfsStack(TreeNode node) {
         if(node == null) {
             return;
         }
 
-        Stack<Node> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
         stack.push(node);
 
         while(!stack.isEmpty()) {
-            Node removed = stack.pop();
+            TreeNode removed = stack.pop();
             System.out.print(removed.val + " ");
 
             if(removed.right != null) {
