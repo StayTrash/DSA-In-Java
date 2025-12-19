@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/happy-number/
+//  https://leetcode.com/problems/happy-number/description/
 
 class Q6HappyNumber {
     public boolean isHappy(int n) {

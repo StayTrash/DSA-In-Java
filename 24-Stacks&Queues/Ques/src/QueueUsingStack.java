@@ -40,5 +40,4 @@ public class QueueUsingStack {
   public boolean isEmpty() {
     return first.isEmpty();
   }
-
 }
