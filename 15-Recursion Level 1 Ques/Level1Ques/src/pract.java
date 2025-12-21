@@ -114,4 +114,13 @@ public class pract {
 
         return helperSteps(n - 1, s + 1);
     }
+
+
+
+    static void print(int n) {
+        if (n == 0) return;
+
+        System.out.println(n);
+        print(n - 1);
+    }
 }

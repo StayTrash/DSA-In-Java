@@ -22,7 +22,7 @@ public class AdvancedQues {
         public TreeNode buildTree(int[] preOrder, int[] inOrder) {
             HashMap<Integer, Integer> map = new HashMap<>();
 
-            for(int i=0; i < inOrder.length; i++) {
+            for(int i = 0; i < inOrder.length; i++) {
                 map.put(inOrder[i], i);
             }
 
@@ -66,7 +66,7 @@ public class AdvancedQues {
         int col = 0;
 
         Queue<Map.Entry<TreeNode, Integer>> queue = new ArrayDeque<>();
-        Map<Integer, ArrayList<Integer>> map = new HashMap();
+        Map<Integer, ArrayList<Integer>> map = new HashMap<>();
 
         queue.offer(new AbstractMap.SimpleEntry<>(node, col));
 
@@ -78,7 +78,7 @@ public class AdvancedQues {
             node = removed.getKey();
             col = removed.getValue();
 
-            if(node != null) {
+            if (node != null) {
                 if(!map.containsKey(col)) {
                     map.put(col, new ArrayList<Integer>());
                 }
@@ -93,7 +93,7 @@ public class AdvancedQues {
             }
         }
 
-        for(int i=min; i <= max; i++) {
+        for (int i=min; i <= max; i++) {
             ans.add(map.get(i));
         }
 
