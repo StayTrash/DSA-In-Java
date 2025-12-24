@@ -52,7 +52,9 @@ public class MergeSortInPlace {
         }
 
         for (int l = 0; l < mix.length; l++) {
-          arr[s+l] = mix[l];
+            arr[s+l] = mix[l];
         }
+//        or
+//        System.arraycopy(mix, 0, arr, s, mix.length);
     }
 }

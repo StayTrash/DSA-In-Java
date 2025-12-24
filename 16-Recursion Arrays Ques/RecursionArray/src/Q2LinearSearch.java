@@ -26,14 +26,14 @@ public class Q2LinearSearch {
 //        }
         return search(arr, target, index + 1);
     }
-    static int searchfromLast(int[] arr, int target, int index) {
+    static int searchFromLast(int[] arr, int target, int index) {
         if (index == -1) {
             return -1;
         }
         if (arr[index] == target) {
             return index;
         }
-        return searchfromLast(arr, target, index - 1);
+        return searchFromLast(arr, target, index - 1);
     }
 
     // for multiple occurrences
@@ -48,7 +48,7 @@ public class Q2LinearSearch {
         allIndexes(arr, target, index + 1);
     }
 
-    static ArrayList allIndexes2(int[] arr, int target, int index, ArrayList<Integer> list) {
+    static ArrayList<Integer> allIndexes2(int[] arr, int target, int index, ArrayList<Integer> list) {
         if (index == arr.length) {
             return list;
         }
@@ -60,7 +60,7 @@ public class Q2LinearSearch {
 
     // "important concept": if you don't want to pass a new argument
 
-    static ArrayList allIndexes3(int[] arr, int target, int index) {
+    static ArrayList<Integer> allIndexes3(int[] arr, int target, int index) {
 
         ArrayList<Integer> list = new ArrayList<>();
 

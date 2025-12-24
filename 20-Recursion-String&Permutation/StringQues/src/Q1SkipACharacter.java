@@ -1,7 +1,7 @@
 public class Q1SkipACharacter {
     public static void main(String[] args) {
         skip("", "bcabcbiihaouhaaiwehaaop");
-        System.out.println(skip2("bachayqah"));
+        System.out.println(skip2("bana"));
     }
     static void skip(String p, String up) {   // p--> processed , up--> unprocessed
         if (up.isEmpty()) {

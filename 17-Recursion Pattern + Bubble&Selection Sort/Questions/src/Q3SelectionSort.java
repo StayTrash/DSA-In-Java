@@ -21,6 +21,7 @@ public class Q3SelectionSort {
             int temp = arr[max];
             arr[max] = arr[r - 1];
             arr[r - 1] = temp;
+
             selectionSort(arr, r-1, 0, 0);
         }
     }
