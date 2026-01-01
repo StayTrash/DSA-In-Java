@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class PrintMatrixAndPath04 {
@@ -18,7 +17,7 @@ public class PrintMatrixAndPath04 {
         // leads to stack overflow
         // you may return to same position (0,0) in recursion call
         // it will happen again & again ----> leads to stack overflow
-        //to solve this problem
+        // to solve this problem
         // mark cells which are already visited --> "false"
 
 
@@ -52,7 +51,7 @@ public class PrintMatrixAndPath04 {
             allPathsPrint(p + 'L', maze, r, c - 1, path, step + 1);
         }
 
-        //this is the where the function will be over
+        // this is the where the function will be over
         // so before the function gets removes, also remove the changes that were made by that function
         // This is "BACKTRACKING"
 

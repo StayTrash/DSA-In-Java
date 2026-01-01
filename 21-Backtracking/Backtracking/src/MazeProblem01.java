@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// NOTE: when a choice can affect future answers --> use "Backtracking"
+
 public class MazeProblem01 {
     public static void main(String[] args) {
 //        System.out.println(count(3, 3));
@@ -35,7 +37,7 @@ public class MazeProblem01 {
         }
     }
 
-    static ArrayList<String> pathRet(String p, int r, int c){
+    static ArrayList<String> pathRet(String p, int r, int c) {
         if (r == 1 && c == 1) {
             ArrayList<String> list = new ArrayList<>();
             list.add(p);
@@ -54,7 +56,7 @@ public class MazeProblem01 {
         return list;
     }
 
-    static ArrayList<String> pathRetDiagonal(String p, int r, int c){
+    static ArrayList<String> pathRetDiagonal(String p, int r, int c) {
         if (r == 1 && c == 1) {
             ArrayList<String> list = new ArrayList<>();
             list.add(p);

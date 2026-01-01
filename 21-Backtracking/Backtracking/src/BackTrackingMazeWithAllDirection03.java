@@ -1,4 +1,4 @@
-public class BackTraackingMazeWithAllDirection03 {
+public class BackTrackingMazeWithAllDirection03 {
     public static void main(String[] args) {
         boolean[][] board = {
                 {true, true, true},
@@ -10,10 +10,10 @@ public class BackTraackingMazeWithAllDirection03 {
     }
     static void allPaths(String p, boolean[][] maze, int r, int c) {
 
-        // leads to stak overflow
+        // leads to stack overflow
         // you may return to same position (0,0) in recursion call
         // it will happen again & again ----> leads to stack overflow
-        //to solve this problem
+        // to solve this problem
         // mark cells which are already visited --> "false"
 
 
@@ -41,7 +41,7 @@ public class BackTraackingMazeWithAllDirection03 {
             allPaths(p + 'L', maze, r, c - 1);
         }
 
-        //this is the where the function will be over
+        // this is the where the function will be over
         // so before the function gets removes, also remove the changes that were made by that function
         // This is "BACKTRACKING"
 
