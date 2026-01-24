@@ -8,7 +8,7 @@ public class Q2NumberOfDiceRollsWithTargetSum {
 
         diceFace("", 4, 7);
 
-        System.out.println(diceFaceRet("", 4, 7));
+        System.out.println(diceFaceRet("", 10, 7));
 
     }
 
