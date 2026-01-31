@@ -327,19 +327,19 @@ class Node {
     }
 
     int level (TreeNode node, TreeNode x, int lev) {
-        if(node == null) {
+        if (node == null) {
             return 0;
         }
 
-        if(node == x) {
+        if (node == x) {
             return lev;
         }
 
-        int l = level(node.left, x, lev+1);
+        int l = level(node.left, x, lev + 1);
         if (l != 0) {
             return l;
         }
-        return level(node.right, x, lev+1);
+        return level(node.right, x, lev + 1);
     }
 
 //    Q9 : https://leetcode.com/problems/symmetric-tree/description/

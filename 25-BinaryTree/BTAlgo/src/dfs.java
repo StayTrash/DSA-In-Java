@@ -78,7 +78,7 @@ public class dfs {
     }
 
     int height(TreeNode node) {
-        if(node == null) {
+        if (node == null) {
             return 0;
         }
 
