@@ -217,6 +217,7 @@ public class dfs {
 
 //    Q8: https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 //      Kth Smallest Element in a BST
+    // in-order traversal in bst gives "sorted order"
 
     int count = 0;
     public int kthSmallest(TreeNode root, int k) {
@@ -254,8 +255,8 @@ public class dfs {
         int r = preorder[0];
         int index = 0;
 
-        for(int i=0; i<inorder.length; i++) {
-            if(inorder[i] == r) {
+        for (int i = 0; i < inorder.length; i++) {
+            if (inorder[i] == r) {
                 index = i;
             }
         }
@@ -409,7 +410,7 @@ public class dfs {
         return helper1(root, 0);
     }
     int helper1(TreeNode node, int sum) {
-        if(node == null) {
+        if (node == null) {
             return 0;
         }
         sum = sum * 10 + node.val;
