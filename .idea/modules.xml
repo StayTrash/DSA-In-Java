@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.iml" filepath="$PROJECT_DIR$/.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-Selection-Sort/10-Selection-Sort.iml" filepath="$PROJECT_DIR$/10-Selection-Sort/10-Selection-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Insertion-Sort/11-Insertion-Sort.iml" filepath="$PROJECT_DIR$/11-Insertion-Sort/11-Insertion-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-Cycle-Sort/12-Cycle-Sort.iml" filepath="$PROJECT_DIR$/12-Cycle-Sort/12-Cycle-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-Recursion/13-Recursion.iml" filepath="$PROJECT_DIR$/13-Recursion/13-Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-Maths-For-Dsa/14-Maths-For-Dsa.iml" filepath="$PROJECT_DIR$/14-Maths-For-Dsa/14-Maths-For-Dsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-Recursion Level 1 Ques/15-Recursion Level 1 Ques.iml" filepath="$PROJECT_DIR$/15-Recursion Level 1 Ques/15-Recursion Level 1 Ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-Recursion Arrays Ques/16-Recursion Arrays Ques.iml" filepath="$PROJECT_DIR$/16-Recursion Arrays Ques/16-Recursion Arrays Ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-Recursion Pattern + Bubble&amp;Selection Sort/17-Recursion Pattern + Bubble&amp;Selection Sort.iml" filepath="$PROJECT_DIR$/17-Recursion Pattern + Bubble&amp;Selection Sort/17-Recursion Pattern + Bubble&amp;Selection Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-Merge-Sort/18-Merge-Sort.iml" filepath="$PROJECT_DIR$/18-Merge-Sort/18-Merge-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-Quick-Sort/19-Quick-Sort.iml" filepath="$PROJECT_DIR$/19-Quick-Sort/19-Quick-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-Conditionals and Loops/2-Conditionals and Loops.iml" filepath="$PROJECT_DIR$/2-Conditionals and Loops/2-Conditionals and Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21-Backtracking/21-Backtracking.iml" filepath="$PROJECT_DIR$/21-Backtracking/21-Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26-AVL-Trees/26-AVL-Trees.iml" filepath="$PROJECT_DIR$/26-AVL-Trees/26-AVL-Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27-Segment-Tree/27-Segment-Tree.iml" filepath="$PROJECT_DIR$/27-Segment-Tree/27-Segment-Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28-HashMap/28-HashMap.iml" filepath="$PROJECT_DIR$/28-HashMap/28-HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/29-Heaps-&amp;-Priority-Queue-&amp;-Heap-Sort/29-Heaps-&amp;-Priority-Queue-&amp;-Heap-Sort.iml" filepath="$PROJECT_DIR$/29-Heaps-&amp;-Priority-Queue-&amp;-Heap-Sort/29-Heaps-&amp;-Priority-Queue-&amp;-Heap-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-Switch Statements  + Nested Case/3-Switch Statements  + Nested Case.iml" filepath="$PROJECT_DIR$/3-Switch Statements  + Nested Case/3-Switch Statements  + Nested Case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-Functions/4-Functions.iml" filepath="$PROJECT_DIR$/4-Functions/4-Functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-Arrays/5-Arrays.iml" filepath="$PROJECT_DIR$/5-Arrays/5-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-Linear_Search/6-Linear_Search.iml" filepath="$PROJECT_DIR$/6-Linear_Search/6-Linear_Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8-Binary-Search-2D/8-Binary-Search-2D.iml" filepath="$PROJECT_DIR$/8-Binary-Search-2D/8-Binary-Search-2D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9-Bubble-Sort/9-Bubble-Sort.iml" filepath="$PROJECT_DIR$/9-Bubble-Sort/9-Bubble-Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24-Stacks&amp;Queues/Algo/Algo.iml" filepath="$PROJECT_DIR$/24-Stacks&amp;Queues/Algo/Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25-BinaryTree/BTAlgo/BTAlgo.iml" filepath="$PROJECT_DIR$/25-BinaryTree/BTAlgo/BTAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25-BinaryTree/BTQues/BTQues.iml" filepath="$PROJECT_DIR$/25-BinaryTree/BTQues/BTQues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7-Binary-Search/Binary-Search-Algo/Binary-Search-Algo.iml" filepath="$PROJECT_DIR$/7-Binary-Search/Binary-Search-Algo/Binary-Search-Algo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7-Binary-Search/Binary-Search-Questions/Binary-Search-Questions.iml" filepath="$PROJECT_DIR$/7-Binary-Search/Binary-Search-Questions/Binary-Search-Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23-Linked-List/LL-Ques/LL-Ques.iml" filepath="$PROJECT_DIR$/23-Linked-List/LL-Ques/LL-Ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23-Linked-List/Linked-List/Linked-List.iml" filepath="$PROJECT_DIR$/23-Linked-List/Linked-List/Linked-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-Recursion-String&amp;Permutation/MANGQues/MANGQues.iml" filepath="$PROJECT_DIR$/20-Recursion-String&amp;Permutation/MANGQues/MANGQues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-OOPs/OOP 1/OOP 1.iml" filepath="$PROJECT_DIR$/22-OOPs/OOP 1/OOP 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-OOPs/OOP 2/OOP 2.iml" filepath="$PROJECT_DIR$/22-OOPs/OOP 2/OOP 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-OOPs/OOP 3/OOP 3.iml" filepath="$PROJECT_DIR$/22-OOPs/OOP 3/OOP 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24-Stacks&amp;Queues/Ques/Ques.iml" filepath="$PROJECT_DIR$/24-Stacks&amp;Queues/Ques/Ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-Recursion-String&amp;Permutation/StringQues/StringQues.iml" filepath="$PROJECT_DIR$/20-Recursion-String&amp;Permutation/StringQues/StringQues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/help/help.iml" filepath="$PROJECT_DIR$/help/help.iml" />
+    </modules>
+  </component>
+</project>
